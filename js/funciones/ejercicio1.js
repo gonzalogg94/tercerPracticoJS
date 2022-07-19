@@ -9,4 +9,4 @@ function numero(n){
         document.write("El numero ingresado es inpar")
     }
 }
-document.write(numero(4))
+numero(5)
