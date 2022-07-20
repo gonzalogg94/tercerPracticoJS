@@ -4,10 +4,10 @@ Solicitar por pantalla al usuario ingresar el valor de los lados de un rectángu
 La fórmula del perímetro  es p = 2*(a +b)
 */
 
-let lado1=prompt("ingresa el valor de los dos primeros lados")
-let lado2=prompt("ingrese el valor de los otros dos lados")
-function rectangulo(lado1,lado2){
-    documen.write((2*(lado1+lado2)))
-
+function rectangulo(){
+    let lado1=parseInt(prompt("ingresa el valor del primer lado"))
+let lado2=parseInt(prompt("ingresa el valor del segundo lado"))
+    document.write("El perimetro del rectagulo es: "+(2*(lado1+lado2)))
 }
-rectangulo(lado1,lado2)
+rectangulo()
+
